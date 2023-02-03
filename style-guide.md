@@ -21,7 +21,7 @@ The designs were created to the following widths:
 ### Neutral
 
 - Dark Blue: hsl(249, 10%, 26%) 
-- Grayish Blue: hsl(246, 25%, 77%)
+- Grayish Blue: hsl(249, 10%, 26%)
 
 ## Typography
 
@@ -33,3 +33,4 @@ The designs were created to the following widths:
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 400, 500, 600, 700
+font-family: 'Poppins', sem serifa;

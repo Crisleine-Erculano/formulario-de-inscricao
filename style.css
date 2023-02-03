@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2? family= Anton & family= Bebas+Neue & family= Fascinate & family= Inter:wght@300 & family= Kdam+Thmor+Pro & family= Montserrat & family= Outfit:wght@400;700 & family= Poppins:wght@400;500;600;700 & family= Vollkorn:ital@1 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+:root{
+    --cor0:hsl(0, 100%, 74%) ;
+    --cor1:hsl(154, 59%, 51%);
+    --cor2:hsl(248, 32%, 49%);
+    --cor3:hsl(249, 10%, 26%);
+    
+}
+body{
+    Font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background: hsl(0, 100%, 74%) url(images/bg-intro-desktop.png) no-repeat ;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.titulo{
+    color: #fff;
+    text-align: left;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.paragrafo-principal{
+    color: #fff;
+    text-align: justify;
+}
+.conteudo-formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    flex-direction: column;
+}
+.dados-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    width: 90%;
+    padding: 10% 5%;
+    border-radius: 5px;
+}
+
+.botao{
+    background-color: hsl(247, 32%, 48%);
+    color: #fff;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    cursor: pointer;
+
+}
+.campo-entrada{
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid var(--cor3);
+    text-indent: 10px;
+    cursor: pointer;
+    line-height: 1.5em;
+}
+.campo-entrada::placeholder, .submit::placeholder{
+    color: var(--cor3);
+    text-indent: 10px;
+    font-weight: 600;
+}
+.submit{
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 83%;
+    margin-bottom: 10px;
+    text-indent: 10px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background-color: var(--cor1);
+    border: 1px solid var(--cor1);
+    line-height: 1.5em;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.paragrafo{
+    color: var(--cor3);
+}
+.link{
+    text-decoration: none;
+    color: var(--cor0);
+}
+
+
+    
