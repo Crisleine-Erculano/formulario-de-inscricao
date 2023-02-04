@@ -70,7 +70,10 @@ body{
     margin-bottom: 10px;
     line-height: 1.5em;
     cursor: pointer;
-
+}
+.botao:active{
+    background-color:#fff;
+    color: var(--cor2) ;
 }
 .campo-entrada{
     padding: 10px 5px;
@@ -102,6 +105,10 @@ body{
     cursor: pointer;
     text-transform: uppercase;
 
+}
+.submit:active{
+    background-color: #fff;
+    color: var(--cor1);
 }
 .paragrafo{
     color: var(--cor3);
