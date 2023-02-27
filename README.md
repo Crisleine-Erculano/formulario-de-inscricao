@@ -14,9 +14,9 @@ Que e este :
 
 Onde usuários devem ser capazes de::
 
-- Visualize o layout ideal para o site, dependendo do tamanho da tela do dispositivo
-- Veja os estados de foco para todos os elementos interativos na página
-- Receba uma mensagem de erro quando formfor enviado se:
+- Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo
+- Ver os estados de foco para todos os elementos interativos na página
+- Receberem uma mensagem de erro quando formfor enviado se:
   - Qualquer inputcampo está vazio. A mensagem para este erro deve dizer "[Nome do campo] não pode estar vazio"
   - O endereço de e-mail não está formatado corretamente (ou seja, um endereço de e-mail correto deve ter esta estrutura: name@host.com). A mensagem para este erro deve dizer "Parece que este não é um e-mail"*
 
